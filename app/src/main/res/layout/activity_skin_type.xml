@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".SkinCare.SkinType">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/first2"
+                android:layout_width="100dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:layout_height="140dp"/>/>
+
+
+            <ImageView
+                android:src="@drawable/first3"
+                android:layout_width="100dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:layout_height="140dp"/>/>
+
+            <ImageView
+                android:src="@drawable/first4"
+                android:layout_width="100dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:layout_height="140dp"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="500dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangel_baby_pink"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/img_3"
+                    android:padding="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+  <TextView
+    android:layout_width="match_parent"
+    android:text="@string/qustion1"
+    android:textColor="@color/black"
+      android:layout_marginTop="5dp"
+    android:textSize="15dp"
+     android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <RadioGroup
+                android:id="@+id/question1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/pink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/posible1"
+                android:layout_width="wrap_content"
+                android:text="100%"
+                android:textColor="@color/gray"
+                android:textSize="12dp"
+                android:layout_height="wrap_content"/>
+
+                <RadioButton
+                    android:id="@+id/posible2"
+                    android:layout_width="wrap_content"
+                    android:text="50%"
+                    android:textColor="@color/gray"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/posible3"
+                    android:layout_width="wrap_content"
+                    android:text="0%"
+                    android:textColor="@color/gray"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <!--question 2 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangel_baby_pink"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+              <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/img_3"
+                    android:padding="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/qustion2"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"/>
+
+              </LinearLayout>
+            <RadioGroup
+                android:id="@+id/question2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/pink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/posible21"
+                    android:layout_width="wrap_content"
+                    android:text="100%"
+                    android:textColor="@color/gray"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton
+                    android:id="@+id/posible22"
+                    android:layout_width="wrap_content"
+                    android:text="25%"
+                    android:textColor="@color/gray"
+                    android:textSize="13dp"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/posible23"
+                    android:layout_width="wrap_content"
+                    android:text="0%"
+                    android:textColor="@color/gray"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+        </LinearLayout>
+
+<!--question 3-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangel_baby_pink"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+              <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/img_3"
+                    android:padding="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/qustion3"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"/></LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/question3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/pink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/posible31"
+                    android:layout_width="wrap_content"
+                    android:text="100%"
+                    android:textColor="@color/gray"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton
+                    android:id="@+id/posible32"
+                    android:layout_width="wrap_content"
+                    android:text="50%"
+                    android:textColor="@color/gray"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/posible33"
+                    android:layout_width="wrap_content"
+                    android:text="0%"
+                    android:textColor="@color/gray"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+        </LinearLayout>
+
+
+<!--     question 4-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangel_baby_pink"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+              <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/img_3"
+                    android:padding="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/qustion4"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"/></LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/question4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/pink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/posible41"
+                    android:layout_width="wrap_content"
+                    android:text="100%"
+                    android:textColor="@color/gray"
+                    android:layout_gravity="center"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton
+                    android:id="@+id/posible42"
+                    android:layout_width="wrap_content"
+                    android:text="0%"
+                    android:textColor="@color/gray"
+                    android:layout_gravity="center"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content"/>
+
+            </RadioGroup>
+        </LinearLayout>
+
+        </LinearLayout>
+        </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:background="@color/pink"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+       <ImageView
+           android:layout_width="40dp"
+           android:src="@drawable/mask"
+           android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/check_button"
+            android:layout_width="250dp"
+            android:layout_gravity="end"
+            android:gravity="start"
+            android:paddingLeft="10dp"
+            android:textSize="17dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:text="@string/chack"
+            android:layout_height="60dp"/> </LinearLayout>
+    </LinearLayout>

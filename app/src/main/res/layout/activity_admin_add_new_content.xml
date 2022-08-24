@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Admin.AdminAddNewContent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_mask"
+            android:padding="15sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/icon_loade_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"/>
+
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/mask"
+                android:padding="15dp"
+                android:scaleType="centerInside"
+                android:background="@drawable/skin"
+                android:layout_height="120dp"/>
+
+
+                <CheckBox
+                    android:id="@+id/skin_care_add"
+                    android:text="@string/skin_care"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:layout_width="wrap_content"
+                    android:checked="false"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:src="@drawable/hair_mask"
+                android:scaleType="centerInside"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/hair"
+                android:layout_height="120dp"/>
+
+
+                <CheckBox
+                    android:id="@+id/hair_care_add"
+                    android:text="@string/hair_care"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:layout_width="wrap_content"
+                    android:checked="false"
+                    android:layout_height="wrap_content"/>/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:src="@drawable/body_wight"
+                android:padding="15dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/body_w"
+                android:layout_height="120dp"/>
+                <CheckBox
+                android:id="@+id/body_care_add"
+                    android:text="@string/witdth_view"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:layout_width="wrap_content"
+                    android:checked="false"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:padding="10dp"
+            android:id="@+id/type_skin"
+            android:background="@drawable/skin"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:text="Select Type Of Skin : "
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_height="wrap_content"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/oil_skin"
+                    android:text="@string/oil"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/sensetive_skin"
+                    android:text="@string/sensitive"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/normal_skin"
+                    android:text="@string/normal_skin"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/dry_skin"
+                    android:text="@string/dry"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:id="@+id/type_hiar"
+            android:background="@drawable/hair"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:text="Select Type Of Hiar : "
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_height="wrap_content"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/oil_hiar"
+                    android:text="@string/oil_h"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/sensetive_hiar"
+                    android:text="@string/sensitive_h"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/normal_hiar"
+                    android:text="@string/normal_h"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/dry_hiar"
+                    android:text="@string/dry_h"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/type_body"
+            android:visibility="gone"
+            android:background="@drawable/body_w"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:text="Select Type Of Body : "
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_height="wrap_content"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/thin_body"
+                    android:text="@string/thin"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/normal_body"
+                    android:text="@string/normal"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/fit_body"
+                    android:text="@string/fit"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:id="@+id/very_fit_body"
+                    android:text="@string/very_fit"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:text="@string/title"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"
+            android:background="@drawable/pink_border_rect"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:src="@drawable/icon_title"
+                android:layout_width="23dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="23dp"/>
+
+            <EditText
+                android:id="@+id/title"
+                android:textColorHint="@color/gray"
+                android:layout_width="match_parent"
+                android:textSize="10dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="20dp"
+                android:hint="@string/title"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:text="@string/description_mask"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"
+            android:background="@drawable/pink_border_rect"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:src="@drawable/icon_title"
+                android:layout_width="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp"/>
+
+            <EditText
+                android:id="@+id/description"
+                android:textColorHint="@color/gray"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:layout_marginRight="20dp"
+                android:hint="@string/description_mask"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:text="@string/content"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/pink_border_rect"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:src="@drawable/icon_title"
+                android:layout_width="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp"/>
+
+            <EditText
+                android:id="@+id/compont"
+                android:textColorHint="@color/gray"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_marginRight="20dp"
+                android:textSize="10dp"
+                android:hint="@string/content"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:text="Add Item"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/group_pink123"
+            android:layout_height="50dp"/>
+
+        <ListView
+            android:id="@+id/list_item"
+            android:layout_width="match_parent"
+            android:divider="@color/gray"
+            android:visibility="visible"
+            android:padding="10dp"
+            android:textDirection="@integer/default_circle_indicator_orientation"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/lode_contentin_firebase"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:text="Add"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/group_pink123"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+</ScrollView>

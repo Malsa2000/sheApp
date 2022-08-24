@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/dailog_result"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:layout_height="200dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Are you want to resive the mask on skin type?"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/yes_button"
+        android:layout_width="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="yes!"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/rectangel_baby_pink"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/no_button"
+        android:layout_width="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"
+        android:text="No!"
+        android:layout_gravity=""
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/rectangel_baby_pink"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>

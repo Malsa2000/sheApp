@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".width.TypeBody">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/apple_shape"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:background="@drawable/circle_blue"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_height="300dp">
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/image_type_body"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                app:civ_border="false"
+                app:civ_border_width="50dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:src="@drawable/recte_shap" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/name_shape_body"
+                    android:textColor="@color/blue"
+                    android:layout_gravity="center"
+                    android:text="@string/apple_shape"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="@color/blue"
+                    android:layout_gravity="center"
+                    android:text="@string/description"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/body_description"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/gray"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:padding="10dp"
+                android:text="@string/apple_decription"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rectangel_11blue"
+            android:layout_height="5dp"/>
+
+
+        <TextView
+            android:textColor="@color/gray"
+            android:layout_gravity="start"
+            android:text="@string/exersise_body"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/rect_baby_blue"
+                android:padding="15dp"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:background="@drawable/circel_white"
+                    android:layout_height="150dp">
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/gif_exersise_1"
+                        android:layout_marginLeft="25dp"
+                        android:layout_width="100dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:layout_height="100dp"
+                        android:src="@drawable/exercise_white_1"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="@string/apple_decription"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="13dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/rect_baby_blue"
+                android:padding="15dp"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="@string/apple_decription"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="13dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_gravity="end"
+                    android:background="@drawable/circel_white"
+                    android:layout_height="150dp">
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/gif_exersise_2"
+                        android:layout_marginLeft="25dp"
+                        android:layout_width="100dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:layout_height="100dp"
+                        android:src="@drawable/exersise_bend" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/rect_baby_blue"
+                android:padding="15dp"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:background="@drawable/circel_white"
+                    android:layout_height="150dp">
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/gif_exersise_3"
+                        android:layout_marginLeft="25dp"
+                        android:layout_width="100dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:layout_height="100dp"
+                        android:src="@drawable/exersises_1"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="@string/apple_decription"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="13dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/link_text"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:text="@string/shap_qustion"
+            android:textSize="15dp"
+            android:background="@drawable/rectangel_blue"
+            android:padding="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+</ScrollView>

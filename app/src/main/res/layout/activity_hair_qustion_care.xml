@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".HairCare.HairQustionCare">
+
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:text="@string/qustion_title"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:src="@drawable/hair1"
+            android:layout_margin="10dp"
+            android:background="@drawable/hair"
+            android:padding="10dp"
+            android:scaleType="center"
+            android:layout_height="160dp"/>
+
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/hire2"
+            android:background="@drawable/hair"
+            android:scaleType="center"
+            android:padding="10dp"
+            android:layout_height="160dp"/>
+
+
+        <ImageView
+            android:layout_width="110dp"
+            android:src="@drawable/hire3"
+            android:scaleType="center"
+            android:background="@drawable/hair"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_height="160dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="15sp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+
+
+
+<!--            qusion 1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/rec_green"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/hair_mask"
+                        android:padding="10dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/qustion1"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/qustion1_per"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:textDirection="@integer/default_title_indicator_line_position"
+                    android:background="@drawable/spinner_bg"
+                    android:layout_height="40dp"/>
+            </LinearLayout>
+
+<!--qustion 2-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/rec_green"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/hair_mask"
+                        android:padding="10dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/qustion1"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <Spinner
+                    android:id="@+id/qustion2_per"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:textDirection="@integer/default_title_indicator_line_position"
+                    android:background="@drawable/spinner_bg"                    android:layout_height="40dp"/>
+            </LinearLayout>
+
+
+            <!--qustion 3-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/rec_green"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/hair_mask"
+                        android:padding="10dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/qustion1"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+                <Spinner
+                    android:id="@+id/qustion3_per"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:textDirection="@integer/default_title_indicator_line_position"
+                    android:background="@drawable/spinner_bg"                        android:layout_height="40dp"/>
+            </LinearLayout>
+
+
+            <!--qustion 4-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:background="@drawable/rec_green"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/hair_mask"
+                        android:padding="10dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/qustion1"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+                <Spinner
+                    android:id="@+id/qustion4_per"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:textDirection="@integer/default_circle_indicator_orientation"
+                    android:background="@drawable/spinner_bg"                        android:layout_height="40dp"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/test"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <Button
+                android:id="@+id/check_button_hair"
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="@drawable/rec_green"
+                android:textColor="@color/black"
+                android:text="@string/chack"
+                android:layout_height="60dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

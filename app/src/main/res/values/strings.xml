@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">sheApp</string>
+
+    <string name="about_title">about progect</string>
+    <string name="about_description">about progect</string>
+    <string name="languges_avalible">all languges in allpicaion </string>
+    <string name="lenght">Height in cm</string>
+    <string name="whigth">Weight in kg </string>
+    <string name="calclate">Calculate </string>
+    <string name="click">CLICK! </string>
+
+    <!--    home string-->
+    <string name="skin_care">Skin-care </string>
+    <string name="hair_care">hair care </string>
+    <string name="wighth_per">ideal weight calculator </string>
+    <string name="note">Notes </string>
+
+    <string name="description_skin_care"> then your body is "top heavy,
+" meaning you have a wide torso,
+broad shoulders, and a full bust </string>
+    <string name="description_hair_care">then your body is "top heavy,
+" meaning you have a wide torso,
+broad shoulders, and a full bust </string>
+    <string name="description_sport_care">Notes </string>
+    <string name="description_note_care">Notes </string>
+
+
+    <!--    Note Sting-->
+    <string name="add_event_name">Enter The Event Title ! </string>
+    <string name="add_event_desc">Enter the Description of the Event! </string>
+    <string name="add_new">ADD NEW EVENT </string>
+    <string name="add_event_date">Choose an event date </string>
+
+    <string name="note_add_small">Every notes you wrote </string>
+    <string name="add_note_sucsseful">Event added successfully on :</string>
+
+
+    <!--    skine type Qustion-->
+    <string name="qustion1">Does your skin have acne? </string>
+    <string name="qustion2">Is your skin moist? </string>
+    <string name="qustion3">Do wrinkles appear in your skin?</string>
+    <string name="qustion4">Does your skin have a shine? </string>
+    <string name="chack">check! </string>
+
+    <string name="oil">Oil Skin </string>
+    <string name="dry">Dry Skin  </string>
+    <string name="sensitive">Sensitive Skin </string>
+    <string name="normal_skin">Normal Skin </string>
+
+    <string name="oil_h">Oil Hiar </string>
+    <string name="dry_h">Dry Hiar  </string>
+    <string name="sensitive_h">Sensitive Hiar </string>
+    <string name="normal_h">Normal Hiar </string>
+    <string name="skin_type">What is Skin Type?</string>
+    <string name="hair_type">What is Hair Type?</string>
+    <string name="wether_string">What is wether Type?</string>
+
+
+    <!--    type body shape-->
+    <string name="shap_qustion">Please click here to watch the exercise
+ videos for your body</string>
+
+
+    <!--    width perfict view -->
+    <string name="witdth_view">your weight is </string>
+    <string name="kg">KG</string>
+    <string name="cm">CM</string>
+
+    <string name="thin">Thin </string>
+    <string name="normal">Normal</string>
+    <string name="fit">Fit</string>
+    <string name="very_fit">Very Fit</string>
+    <string name="body_shape">body shapes :</string>
+    <string name="exersise_body">Some exercises of the special of this form : </string>
+
+
+    <!--    login and singin-->
+    <string name="login">LOGIN</string>
+    <string name="singin">SINGIN</string>
+    <string name="hint_email">Enter Your Email</string>
+    <string name="hint_password">Enter Your Password</string>
+    <string name="hint_name">Enter Your Name</string>
+    <string name="hint_age">Enter Your Age</string>
+    <string name="forgit_pass">Forgot your password</string>
+    <string name="massage_error">I agree to all the terms and conditions of this application</string>
+    <string name="name">YOUR NAME :</string>
+    <string name="email">YOUR EMAIL :</string>
+    <string name="pass">YOUR PASSWORD :</string>
+    <string name="age">YOUR AGE :</string>
+
+
+    <!--    error massage:-->
+    <string name="error1">  Please enter your weight and height  </string>
+
+
+    <!--    menu drawer nav:-->
+    <string name="favort">Favorite</string>
+    <string name="home">Home</string>
+    <string name="setting">Settings </string>
+    <string name="about">About</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+
+    <!--    widht detiles:-->
+
+
+    <string name="description">Description</string>
+
+    <string name="apple_shape">Apple Body  Shape</string>
+    <string name="houre_shape">HourClass Body shape</string>
+    <string name="pear_shape">Pear Body Shape</string>
+    <string name="rectangel_shape">Rectangle Body Shape</string>
+    <string name="apple_decription">If you have an apple-shaped body,
+ then your body is "top heavy,
+" meaning you have a wide torso,
+broad shoulders, and a full bust</string>
+
+    <string name="hour_desc">Hourglass body shapes have a wide bust,
+ narrow waist, and wide hips that
+measure similar to chest measurements</string>
+    <string name="pear_desc"> Your hips and thighs are wider than
+ your shoulders and bust.
+ Your have a defined waist that is narrow
+ compared to your hips.</string>
+    <string name="rectangel_desc">Rectangles tend to be tall and lean.
+ They are not particularly curvy,
+ the waist is not well-defined,
+ and the bottom is rather flat.</string>
+
+
+    <!--    admin activity-->
+    <string name="title"> Mask title</string>
+    <string name="content">    Mask components</string>
+    <string name="description_mask">  Mask description</string>
+
+
+    <!--    hire care-->
+    <string name="qustion_title"> equize care * will back</string>
+
+
+    <string-array name="persentage">
+        <item>100%</item>
+        <item>50%</item>
+        <item>25%</item>
+        <item>0%</item>
+    </string-array>
+</resources>

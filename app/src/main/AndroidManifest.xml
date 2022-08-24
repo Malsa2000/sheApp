@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sheapp">
+    <!-- using Bluttonth -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> <!-- calender date -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" /> <!-- using Internt -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SheApp">
+        <activity
+            android:name=".Tulep_page_order"
+            android:exported="false" />
+        <activity
+            android:name=".HairCare.ResultHairCare"
+            android:exported="true" />
+        <activity
+            android:name=".HairCare.HairQustionCare"
+            android:exported="true"></activity>
+        <activity
+            android:name=".FirstPage"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Admin.AdminAddNewContent"
+            android:exported="true" />
+        <activity
+            android:name=".HairCare.HairCare"
+            android:exported="true" />
+        <activity
+            android:name=".login.SigninActivity"
+            android:exported="true" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChangeLanguges"
+            android:exported="true" />
+        <activity
+            android:name=".SettingActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Note.NoteAdd"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Note.NoteView"
+            android:exported="true"></activity>
+        <activity
+            android:name=".width.TypeBody"
+            android:exported="true" />
+        <activity
+            android:name=".About"
+            android:exported="true" />
+        <activity
+            android:name=".TypeResult"
+            android:exported="true" />
+        <activity
+            android:name=".SkinCare.SkinType"
+            android:exported="true" />
+        <activity
+            android:name=".SkinCare.Skin_care_detils"
+            android:exported="true"></activity>
+        <activity
+            android:name=".width.viewWidth"
+            android:exported="true" />
+        <activity
+            android:name=".width.goodWidth"
+            android:exported="true"></activity>
+        <activity
+            android:name=".SkinCare.SkinCare"
+            android:exported="true"></activity>
+        <activity
+            android:name=".HomeAto"
+            android:exported="true"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
+    </application>
+
+</manifest>
